@@ -12,7 +12,7 @@ proxy-groups:
     proxies:
       - Auto - UrlTest
       - DIRECT
-      - 1681464213.127383
+      - 广东
   - name: Domestic
     type: select
     proxies:
@@ -23,7 +23,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
-      - 1681464213.127383
+      - 广东
   - name: Others
     type: select
     proxies:
@@ -50,25 +50,25 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
-      - 1681464213.127383
+      - 广东
   - name: Netflix
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 1681464213.127383
+      - 广东
   - name: Spotify
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 1681464213.127383
+      - 广东
   - name: Telegram
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 1681464213.127383
+      - 广东
   - name: Steam
     type: select
     proxies:
@@ -80,7 +80,7 @@ proxy-groups:
       - Proxies
       - DIRECT
       - Domestic
-      - 1681464213.127383
+      - 广东
   - name: PayPal
     type: select
     proxies:
@@ -101,7 +101,7 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     interval: 1800
     proxies:
-      - 1681464213.127383
+      - 广东
 rules:
  - DOMAIN-SUFFIX,local,DIRECT
  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
